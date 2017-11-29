@@ -1,0 +1,10 @@
+Block Programming the Micro:Bit
+
+Here are some projects to try out
+https://makecode.microbit.org/projects
+
+https://microbit.org/ideas/
+
+
+Here is where you can go to code
+https://makecode.microbit.org/
