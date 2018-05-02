@@ -24,16 +24,15 @@ def decrypt (cipherText, key):
 
 
 #Test code
-plainText = input("Enter a phrase: ")
+plainText = input("Enter a message: ")
 name = input("Enter your first name: ")
 key = nameValue(name)
 cipherText = encrypt(plainText, key)
 print('Encrypted message =', cipherText)
+print()
+name = input("Enter your first name to decrypt: ")
+key = nameValue(name)
 plainText = decrypt(cipherText, key)
 print('Original message =', plainText)
 
-## Output
-## Enter a phrase: This is my secret message
-## Enter your first name: Norman
-## Encrypted message = ÈÜÝçÝçáíçÙ×æÙèáÙççÕÛÙ
-## Original message = This is my secret message
+
